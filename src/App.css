@@ -1,0 +1,11 @@
+main {
+  @apply min-h-screen bg-gradient-to-r from-cyan-500 to-blue-500 grid place-items-center
+}
+
+input[type="text"] {
+  @apply border-zinc-400 border-2 rounded-lg outline-none w-full p-1
+}
+
+input[type="submit"] {
+  @apply bg-purple-600 text-white px-3 rounded-lg hover:bg-purple-900 cursor-pointer
+}
